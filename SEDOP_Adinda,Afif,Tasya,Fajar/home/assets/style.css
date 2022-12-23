@@ -8,6 +8,7 @@
 /* navigasi */
 .container {
     width: 100%;
+    background-color: #f9f9fa;
 
 
 }
@@ -71,14 +72,22 @@ z-index: 1;
 
 /* navigasi */
 
+/* home
+*/
+
+.home {
+    width: 100%;
+   
+}
 
 /* welcome */
 
 .welcome {
     width: 100%;
-    margin-top: 180px;
     display: flex;
     justify-content: space-evenly;
+    background: url("/home/assets/img/bg1.svg");
+    background-repeat: no-repeat;
 }
 
 .welcome-des {
@@ -91,7 +100,15 @@ z-index: 1;
 .deskripsi h2 {
     font-size: 40px;
     text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 10px;
 }
+
+.deskripsi p {
+    font-weight: 500;
+}
+
 .button-show {
    margin-top: 20px;
 }
@@ -155,7 +172,7 @@ z-index: 1;
     height: 500px;
     border-radius: 10px 10px 0 0;
     margin: 30px;
-    background-color: aliceblue;
+    background-color: #fff;
     box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.1);
     padding: 10px;
 }
@@ -164,6 +181,11 @@ z-index: 1;
     width: 100%;
     border-radius: 10px 10px 0 0;
 
+}
+
+.card img:hover {
+    opacity: 0.8;
+    transition: 0.2s;
 }
 
 .card p {
@@ -182,10 +204,14 @@ z-index: 1;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .card-footer {
-    margin: 0px 20px;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .card-footer p {
@@ -193,3 +219,19 @@ z-index: 1;
     color: #fff;
     text-transform: capitalize;
 }
+
+.card-footer a {
+    color: #fff;
+    font-size: 80%;
+    padding: 0px 30px;
+}
+
+.card-footer a :hover {
+   color: #252525;
+   transition:0.2s;
+}
+.card-footer iframe {
+    width: 90%;
+    border-radius: 10px;
+}
+
