@@ -4,6 +4,14 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.wrapper-order {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
 .order {
     width: 100%;
     height: 50vh;
@@ -43,6 +51,7 @@
 .order-des {
     width: 35%;
 }
+
 .order-des h2 {
     font-weight: bold;
     margin-bottom: 20px;
@@ -53,6 +62,7 @@
     font-weight: 800;
     font-style: italic;
 }
+
 .order-img {
     width: 35%;
 }
