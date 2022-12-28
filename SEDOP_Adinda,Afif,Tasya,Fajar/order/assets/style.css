@@ -1,175 +1,64 @@
-
 * {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
 }
 
-/* navigasi */
-.container {
-    width: 100%;
-
-
-}
-
-.navigasi {
-width: 100%;
-height: 80px;
-box-sizing: border-box;
-background-color: #800000;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 30px;
-top: 0;
-position: sticky;
-z-index: 1;
-}
-.brand h1 {
-    font-size: 24px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    cursor: pointer;
-}
-
-.menu {
-    height: 100%;
-}
-.nav-list {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    gap: 20px;
-    
-}
-
-.nav-list li {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-
-    
-}
-
-.nav-list li:hover{
-    background-color: #a30404;
-    cursor: pointer;
-    transition: 0.3ms;
-}
-
-.nav-list li a {
-    width: 80px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    
-}
-
-/* navigasi */
-
-
-/* welcome */
-
-/* home-menu */
-
 .order {
     width: 100%;
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
-
-
-}
-
-.order-product{
-    width: 40%;
-}
-
-.order-product img {
-    width: 100%;
-}
-
-.order-deskripsi{
-    width: 40%;
- 
-}
-
-.des-product {
-    padding-top: 10px;
-}
-
-.head-product p {
-    font-size: 30px;
-    font-weight: 800;
-    margin: 10px 0;
-}
-
-.des-product td {
-    padding-right: 30px;
-    text-transform: capitalize;
-}
-
-.chart {
-    width: 80%;
-    margin-top: 200px;
-}
-
-.kuantitas {
+    height: 50vh;
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
 }
 
-.kuantitas table {
-    width: 50%;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.beli {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.beli button {
-    background: none;
-    padding: 6px 50px;
-    border-radius: 5px;
-    background-color: #a30404;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-.beli button:hover {
-    background-color: #800000;
-    transition: 0.4s;
-}
-
-/* home-menu */
-
-
-/* home-footer */
-.home-footer {
+.order-bg {
     width: 100%;
-    height: 400px;
-    margin-top: 50px;
-    background-color: #800000;
+    height: 50vh;
+    background-image: url("/order/assets/img/3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    -webkit-filter: blur(15px);
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.order-product {
+    width: 100%;
+    height: 100%;
+    position: absolute;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    box-sizing: border-box;
 }
 
-.card-footer {
-    margin: 0px 20px;
+
+.order-des {
+    width: 35%;
+}
+.order-des h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
-.card-footer p {
-    font-size: 20px;
-    color: #fff;
-    text-transform: capitalize;
+.order-des p {
+    font-weight: 800;
+    font-style: italic;
+}
+.order-img {
+    width: 35%;
+}
+
+
+.order-product .order-img img {
+    width: 80%;
+
 }

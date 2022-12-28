@@ -1,0 +1,51 @@
+/* home-footer */
+.home-footer {
+    width: 100%;
+    height: 400px;
+    background-color: #800000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card-footer {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-cpr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-footer p {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.card-footer h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-footer a {
+    color: #fff;
+    font-size: 80%;
+    padding: 0px 30px;
+}
+
+.card-footer a :hover {
+    color: #252525;
+    transition: 0.2s;
+}
+
+.card-footer iframe {
+    width: 90%;
+    border-radius: 10px;
+}
